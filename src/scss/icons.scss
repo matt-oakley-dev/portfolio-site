@@ -1,0 +1,23 @@
+.social-media-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+
+    .tech-media-icon {
+        margin: 16px;  
+        width: 68px;
+        height: 68px;
+    }
+
+    .social-media-icon {
+        margin: 8px;  
+        filter: brightness(0) invert(1);  
+        width: 24px;
+        height: 24px;
+
+        &:hover {
+            filter: invert(65%) sepia(95%) saturate(334%) hue-rotate(120deg) brightness(91%) contrast(93%);
+        }
+    }
+}

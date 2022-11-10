@@ -1,0 +1,41 @@
+body {
+	font-family: "Ubuntu";
+}
+
+.app {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+
+	.app-half {
+		flex: 1;
+		text-align: center;
+		min-height: 100vh;
+		padding-top: 80px;
+	
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+a {
+	color: #bd29a9;
+	text-decoration: underline;
+}
+
+.profile-image-large {
+	width: 343px;
+	height: 319px;
+
+	outline: 3px solid #2CD4BF;
+	border: #111827 solid 5px;
+
+	border-radius: 228px;
+	margin-bottom: 40px;
+}
+
+.content-container {
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
