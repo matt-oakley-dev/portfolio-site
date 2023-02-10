@@ -6,13 +6,9 @@ export default function rightHero() {
 		<div className='app-half'>
 			<div className='content-container mb-60'>
 				<h1 className='has-third-color'>Who am I?</h1>
-				<p>Hi, my name is Matthew Oakley. I am a backend PHP developer working on the Wordpress platform. 
-					I am based in birmingham in the UK and working for a market leading agency, <a href='https://www.wearesmile.com'>wearesmile.</a>
-				</p>
-
 				<p>
-					Outside of work you may find me in the pub, on a golf course or playing football with my friends. In the winter (when the suns not shining) i like to experiment with new tech stacks and continue my growth as a developer.
-				</p>
+					My name is Matthew Oakley and I am a backend PHP developer. I specialize in working on the Wordpress platform and I am proud to be part of the market-leading agency, wearesmile, based in Birmingham, UK.</p>
+					<p>In my free time, you can find me indulging in my favorite activities such as grabbing a drink at the pub, hitting the golf course, or playing a game of football with my friends. When the weather takes a turn and the sun isn't shining, I enjoy exploring new tech stacks and pushing my limits as a developer. Join me on this journey of continuous growth and discovery!</p>
 			</div>
 
 			<div className='content-container'>
