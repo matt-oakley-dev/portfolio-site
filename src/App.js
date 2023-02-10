@@ -1,5 +1,5 @@
-import LeftHero from './compontents/hero/leftHero';
-import RightHero from './compontents/hero/rightHero';
+import LeftHero from './compontents/application/leftHero';
+import RightHero from './compontents/application/rightHero';
 
 import './scss/app.scss';
 import './scss/helpers.scss';
