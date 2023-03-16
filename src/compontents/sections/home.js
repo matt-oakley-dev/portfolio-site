@@ -1,4 +1,5 @@
 import TechnologyRow from "../icons/technologyRow"
+import IntegrationRow from "../icons/integrationRow"
 import ButtonLink from "../button/buttonLink"
 
 export default function Home() {
@@ -14,6 +15,15 @@ export default function Home() {
 			<div className='content-container'>
 				<h1 className='has-third-color'>What are my technologies?</h1>
 				<TechnologyRow/>
+			</div>
+
+			<div className='content-container cta mt-40 mb-40'>
+				<h1 className=''>I make complex developments and integrations <span className='has-secondary-color'>simple.</span></h1>
+			</div>
+
+			<div className='content-container'>
+				<h1 className='has-third-color'>What systems have I integrated with?</h1>
+				<IntegrationRow/>
 			</div>
 		</div>
   	)
