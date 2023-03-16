@@ -4,7 +4,7 @@ import { useState } from "react";
 import wordpress from '../../images/social-media/wordpress.svg';
 import php from '../../images/technologies/php.svg';
 import aws from '../../images/technologies/aws.svg';
-import database from '../../images/technologies/database.svg';
+import python from '../../images/technologies/python.svg';
 import javascript from '../../images/technologies/javascript.svg';
 import git from '../../images/technologies/git.svg';
 import ExperienceRow from "./experienceRow";
@@ -33,6 +33,7 @@ export default function TechnologyRow() {
                 {/* <img onClick={() => handleTechnologySelect('database')} src={database} className="tech-media-icon" alt="database logo"/> */}
                 <img id="wordpress-id" onClick={(e) => handleTechnologySelect(e, 'wordpress')} src={wordpress} className="tech-media-icon" alt="wordpress logo"/>
                 <img id="git-id" onClick={(e) => handleTechnologySelect(e, 'git')} src={git} className="tech-media-icon" alt="git logo"/>
+				<img id="python-id" onClick={(e) => handleTechnologySelect(e, 'python')} src={python} className="tech-media-icon" alt="python logo"/>
             </div>
 
             {selectedTechnology && (
