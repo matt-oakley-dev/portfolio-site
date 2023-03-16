@@ -1,4 +1,5 @@
 import TechnologyRow from "../icons/technologyRow"
+import IntegrationRow from "../icons/integrationRow"
 import ButtonLink from "../button/buttonLink"
 
 export default function Home() {
@@ -14,6 +15,25 @@ export default function Home() {
 			<div className='content-container'>
 				<h1 className='has-third-color'>What are my technologies?</h1>
 				<TechnologyRow/>
+			</div>
+
+			<div className='content-container cta mt-40 mb-40'>
+				<h1 className=''>I make complex developments and integrations <span className='has-secondary-color'>simple.</span></h1>
+			</div>
+
+			<div className='content-container mb-40'>
+				<h1 className='has-third-color'>What systems have I integrated with?</h1>
+				<IntegrationRow/>
+
+				<p className="mt-40 mb-40">If you can't find the specific integration you're looking for, don't worry! I am dedicated to providing a wide range of integration options, but I understand that every business has unique needs. If you need a custom integration or if you're looking for something that isn't currently available on my website, please don't hesitate to contact me.</p>
+
+				<ButtonLink label={"Contact Me"} href={'https://www.linkedin.com/in/matt-oakley-2aabb6143/'} classes={"justify-content-left mt-10"}/>
+			</div>
+
+			<div className='content-container cta mt-40'>
+				<p>Built with: <span className='has-secondary-color'>React</span></p>
+				<p>Hosted with: <span className='has-secondary-color'>Vercel</span></p>
+				<p>Built by: <span className='has-secondary-color'>Matt Oakley</span></p>
 			</div>
 		</div>
   	)
