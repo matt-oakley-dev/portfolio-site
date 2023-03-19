@@ -1,9 +1,6 @@
 import React from "react";
 import { useState } from "react";
 
-import TechnologyRow from "../icons/technologyRow"
-import ButtonLink from "../button/buttonLink"
-
 import Home from "../sections/home"
 import Contact from "../sections/contact";
 import Articles from "../sections/articles";

@@ -1,6 +1,7 @@
 import ButtonLink from "../button/buttonLink"
 import SampleMD from "../md-articles/sample.md"
 import ReactMarkdown from 'react-markdown';
+import ArticlesButton from "../button/articleButton";
 
 import { useState } from "react";
 
@@ -26,7 +27,12 @@ export default function Articles() {
 			<div className='content-container mb-60'>
 				<div id="article-selector-container">
 					<h1 className='has-third-color'>Articles</h1>
-					<button onClick={(e) => handleMarkDownSelect(e, 'sample-md')}>Sample Md</button>
+					<ArticlesButton
+						title={'Deploy your NextJs / React app to Vercel'}
+						excerpt={"If you're looking to deploy an app, Vercel is a great option. Vercel is a cloud platform for static sites and serverless functions. It's easy to use and has great performance. In this article, we'll walk through the steps to deploy your app to Vercel."}
+						date={"19th March 2023"}
+						onClick={(e) => handleMarkDownSelect(e, 'sample-md')}
+					/>
 				</div>
 
 				<div id="article-content-container" className='hidden'>
