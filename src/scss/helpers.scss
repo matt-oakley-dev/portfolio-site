@@ -25,18 +25,50 @@
 
 .mb-40 {
 	margin-bottom: 40px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
 } 
 
 .mt-40 {
 	margin-top: 40px;
 }
 
+.mr-40 {
+	margin-right: 40px;
+} 
+
+.ml-40 {
+	margin-left: 40px;
+}
+
 .hidden {
 	display: none !important;
 }
 
+.display-block {
+	display: block;
+}
+
 img {
 	width: 100%;
+}
+
+.color-danger {
+	color: rgb(181, 41, 41);
+}
+
+.min-h-page {
+	min-height: 40vh;	
+}
+
+.h-200 {
+	min-height: 200px;	
+}
+
+.text-center {
+	text-align: center;
 }
 
 code {

@@ -48,6 +48,11 @@ a {
 	text-align: left;
 	margin-left: 70px;
 	margin-right: 70px;
+
+	@media only screen and (max-width: 768px) {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 
 .cta {
@@ -79,5 +84,103 @@ a {
 			border-bottom: 2px solid #111827;
 			cursor: pointer;
         }
+	}
+}
+
+.border-none {
+	border: none;
+}
+
+.chatGPTPrompt {
+	background-color: #e3e6ed;
+	padding: 10px 10px 10px 10px;
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+
+	p {
+		padding: 0;
+		margin: 0;
+		padding-left: 16px;
+	}
+
+	.chatgpt-thread-icon {
+		width: 24px;
+		height: 24px;
+	}
+}
+
+textarea {
+	border-radius: 8px;
+	padding: 6px 10px 6px 10px;
+	box-sizing: border-box;
+	width: 100%;
+	resize: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font: inherit;
+}
+
+input[type=text] {
+	box-sizing: border-box;
+	padding: 6px 10px 6px 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.chatGPTResponse {
+	background-color: #f0f2f7;
+	padding: 10px 8px 10px 8px;
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+
+	.chatGPTContent {
+		padding: 0;
+		margin: 0;
+		padding-left: 16px;
+		white-space: initial;
+		word-break: break-word;
+		overflow: scroll;
+
+		p {
+			margin: 0;
+			margin-bottom: 20px;
+		}
+	}
+
+	.chatgpt-thread-icon {
+		width: 24px;
+		height: 24px;
+	}
+
+	pre {
+		padding: 8px 10px 8px 10px;
+		border-radius: 8px;
+		background-color: #6f7582;
+		color: white;
+		line-height: 1.7;
+		overflow: auto;
+
+		code {
+			padding: 0;
+			background-color: #6f7582;
+			color: white;
+			border-radius: none;
+			white-space: break-word;
+			overflow-wrap: break-word;
+			word-wrap: break-word;
+		}
+	}
+
+	code {
+		color: #111827;
+		font-weight: 700;
+		white-space: break-word;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
 	}
 }

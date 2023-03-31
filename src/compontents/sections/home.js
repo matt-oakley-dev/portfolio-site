@@ -4,7 +4,7 @@ import ButtonLink from "../button/buttonLink"
 
 export default function Home() {
 	return (
-		<div>
+		<div className="">
 			<div className='content-container mb-60'>
 				<h1 className='has-third-color'>Who am I?</h1>
 				<p>
