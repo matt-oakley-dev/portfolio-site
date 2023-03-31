@@ -11,15 +11,14 @@ export default function RightHero() {
 	const [currentPage, setCurrentPage] = useState('home');
 
 	return (
-		<div className='app-half'>
-			<div className='content-container mb-60'>
-				<div class="nav">
-					<ul>
-						<li onClick={(e) => setCurrentPage('home')} className={ currentPage === 'home' ? "main-nav-active" : ''}>Home</li>
-						<li onClick={(e) => setCurrentPage('articles')} className={ currentPage === 'articles' ? "main-nav-active" : ''}>Articles</li>
-						<li onClick={(e) => setCurrentPage('chatgpt')} className={ currentPage === 'chatgpt' ? "main-nav-active" : ''}>ChatGPT</li>
-					</ul>
-				</div>
+		<div className='app-half app-half-right'>
+			<div class="nav">
+				<ul>
+					<li onClick={(e) => setCurrentPage('home')} className={ currentPage === 'home' ? "main-nav-active" : ''}>Home</li>
+					<li onClick={(e) => setCurrentPage('articles')} className={ currentPage === 'articles' ? "main-nav-active" : ''}>Articles</li>
+					<li onClick={(e) => setCurrentPage('chatgpt')} className={ currentPage === 'chatgpt' ? "main-nav-active" : ''}>ChatGPT</li>
+					<li onClick={(e) => setCurrentPage('contact')} className={ currentPage === 'contact' ? "main-nav-active" : ''}>Contact</li>
+				</ul>
 			</div>
 
 			{currentPage === 'home' && (
@@ -32,6 +31,10 @@ export default function RightHero() {
 
 			{currentPage === 'chatgpt' && (
                 <AccessToken/>
+            )}
+
+			{currentPage === 'contact' && (
+                <Contact/>
             )}
 		</div>
   	)

@@ -25,7 +25,7 @@ export default function AccessToken() {
 		<>
 		{ authenticated === true && <ChatGPT/> }
 		{ authenticated === false && 
-			<div className='content-container mb-60'>
+			<div className='content-container mb-60  mt-60'>
 				<form onSubmit={handleSubmit}>
 					<div className='text-center'>
 						<h3>Enter your access token</h3>
