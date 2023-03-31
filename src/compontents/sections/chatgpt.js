@@ -40,8 +40,10 @@ export default function ChatGPT() {
 				{ loading ? <p>Generating Content from ChatGPT...</p> : ''}
 			</div>
 			<form onSubmit={handleSubmit}>
-				<input type="text" value={inputText} onChange={(event) => setInputText(event.target.value)} />
-				<br/>
+				Enter your prompt.
+				<textarea className='display-block' rows="4" cols="50" onChange={(event) => setInputText(event.target.value)} >
+					{inputText}
+				</textarea>
 				<button className='button border-none' type="submit">Submit</button>
 			</form>
 		</div>

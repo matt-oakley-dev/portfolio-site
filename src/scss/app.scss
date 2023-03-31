@@ -46,12 +46,12 @@ a {
 
 .content-container {
 	text-align: left;
-	padding-left: 70px;
-	padding-right: 70px;
+	margin-left: 70px;
+	margin-right: 70px;
 
 	@media only screen and (max-width: 768px) {
-		padding-left: 20px;
-		padding-right: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
 
@@ -97,21 +97,57 @@ a {
 	border-radius: 8px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	display: flex;
+
+	p {
+		padding: 0;
+		margin: 0;
+		padding-left: 16px;
+	}
+
+	.chatgpt-thread-icon {
+		width: 24px;
+		height: 24px;
+	}
+}
+
+textarea {
+	border-radius: 8px;
+	padding: 6px 10px 6px 10px;
+	box-sizing: border-box;
+	width: 100%;
+	resize: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font: inherit;
 }
 
 input[type=text] {
-	width: 50%;
+	box-sizing: border-box;
 	padding: 6px 10px 6px 10px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	width: 100%;
 }
 
 .chatGPTResponse {
 	background-color: #f0f2f7;
-	padding: 2px 8px 2px 8px;
+	padding: 10px 8px 10px 8px;
 	border-radius: 8px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	display: flex;
+
+	p {
+		padding: 0;
+		margin: 0;
+		padding-left: 16px;
+	}
+
+	.chatgpt-thread-icon {
+		width: 24px;
+		height: 24px;
+	}
 
 	pre {
 		padding: 8px 10px 8px 10px;

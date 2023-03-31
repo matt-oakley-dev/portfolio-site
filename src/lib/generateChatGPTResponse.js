@@ -1,12 +1,14 @@
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-const YOUR_API_KEY = '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';
+const API_KEY      = process.env.REACT_APP_CHATGPT_KEY;
 
 const generateChatGPTResponse = async (prompts) => {
+
+	console.log(API_KEY)
 	const response = await fetch(API_ENDPOINT, {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json',
-			'Authorization': `Bearer ${YOUR_API_KEY}`,
+			'Authorization': `Bearer ${API_KEY}`,
 		},
 		body: JSON.stringify({
 			"model": "gpt-3.5-turbo",
