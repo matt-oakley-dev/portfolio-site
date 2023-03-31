@@ -138,10 +138,18 @@ input[type=text] {
 	margin-bottom: 10px;
 	display: flex;
 
-	p {
+	.chatGPTContent {
 		padding: 0;
 		margin: 0;
 		padding-left: 16px;
+		white-space: initial;
+		word-break: break-word;
+		overflow: scroll;
+
+		p {
+			margin: 0;
+			margin-bottom: 20px;
+		}
 	}
 
 	.chatgpt-thread-icon {
@@ -155,9 +163,7 @@ input[type=text] {
 		background-color: #6f7582;
 		color: white;
 		line-height: 1.7;
-		white-space: break-word;
-		overflow-wrap: break-word;
-		word-wrap: break-word;
+		overflow: auto;
 
 		code {
 			padding: 0;

@@ -4,7 +4,7 @@ export default function ThreadPrompt({content}) {
 	return (
 		<div className="chatGPTPrompt">
 			<img src={chat} className="chatgpt-thread-icon"  alt="chatgpt logo"/>
-			<p>Prompt: {content}</p>
+			<p>{content}</p>
 		</div>
   	)
 }

@@ -2,8 +2,6 @@ const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
 const API_KEY      = process.env.REACT_APP_CHATGPT_KEY;
 
 const generateChatGPTResponse = async (prompts) => {
-
-	console.log(API_KEY)
 	const response = await fetch(API_ENDPOINT, {
 		method: 'POST',
 		headers: {

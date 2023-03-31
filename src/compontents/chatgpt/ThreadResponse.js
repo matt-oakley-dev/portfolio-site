@@ -5,9 +5,11 @@ export default function ThreadResponse({content}) {
 	return (
 		<div className="chatGPTResponse">
 			<img src={openai} className="chatgpt-thread-icon"  alt="chatgpt logo"/>
-			<ReactMarkdown>
-				{content}
-			</ReactMarkdown>
+			<div className="chatGPTContent">
+				<ReactMarkdown>
+					{content}
+				</ReactMarkdown>
+			</div>
 		</div>
   	)
 }
