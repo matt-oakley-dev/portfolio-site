@@ -5,7 +5,7 @@ import ButtonLink from "../button/buttonLink"
 export default function Home() {
 	return (
 		<div className="">
-			<div className='content-container mb-60'>
+			<div className='content-container mb-60 mt-60'>
 				<h1 className='has-third-color'>Who am I?</h1>
 				<p>
 					My name is Matthew Oakley and I am a backend PHP developer. I specialize in working on the Wordpress platform and I am proud to be part of the market-leading agency, wearesmile, based in Birmingham, UK.</p>

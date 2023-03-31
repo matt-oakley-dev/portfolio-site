@@ -32,7 +32,7 @@ export default function ChatGPT() {
 	};
 
 	return (
-		<div className='content-container mb-60'>
+		<div className='content-container mb-60  mt-60'>
 			<p>Below is a integration built for ChatGPT ready for ChatGPT 4. I built this because I could. Its actually useless.</p>
 			<hr/>
 			<div>
