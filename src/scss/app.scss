@@ -141,13 +141,27 @@ input[type=text] {
 	width: 100%;
 }
 
+.heart-thread-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+	width: 24px;
+	height: 24px;
+	margin: 5px;
+	cursor: pointer;
+}
+
 .chatGPTResponse {
 	background-color: #f0f2f7;
 	padding: 10px 8px 10px 8px;
 	border-radius: 8px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	display: flex;
+	position: relative;
+
+	.content-parent {
+		display: flex;
+	}
 
 	.chatGPTContent {
 		padding: 0;
